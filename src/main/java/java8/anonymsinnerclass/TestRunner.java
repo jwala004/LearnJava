@@ -1,4 +1,4 @@
-package com.java8.anonyms.innerclass;
+package java8.anonymsinnerclass;
 
 public class TestRunner {
 
