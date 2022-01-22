@@ -21,6 +21,8 @@ public class TestRunner2ConsumerInterface {
 //		lst.forEach((s)-> System.out.println(s));
 		
 		
+		
+		
 	}
 
 }
