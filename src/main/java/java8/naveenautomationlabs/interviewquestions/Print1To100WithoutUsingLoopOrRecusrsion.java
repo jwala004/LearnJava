@@ -1,4 +1,4 @@
-package java8.naveenautomationlabs.javaprogram.interviewquestions;
+package java8.naveenautomationlabs.interviewquestions;
 
 import java.util.Arrays;
 import java.util.BitSet;
