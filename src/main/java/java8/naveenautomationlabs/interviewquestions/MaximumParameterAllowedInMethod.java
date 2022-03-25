@@ -1,4 +1,4 @@
-package java8.naveenautomationlabs.javaprogram.interviewquestions;
+package java8.naveenautomationlabs.interviewquestions;
 
 public class MaximumParameterAllowedInMethod {
 
