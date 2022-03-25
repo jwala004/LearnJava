@@ -29,7 +29,7 @@ public class DuplicateCharacters {
 		Map<Character, Integer> charMap = new HashMap<Character, Integer>();
 
 		for (Character ch : words) {
-			if (charMap.containsKey(ch)) {
+			if (charMap.containsKey(ch)) { // if (charMap.get(ch) != null) {
 				charMap.put(ch, charMap.get(ch) + 1);
 			} else {
 				charMap.put(ch, 1);
