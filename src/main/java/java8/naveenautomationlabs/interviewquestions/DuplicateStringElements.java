@@ -1,7 +1,11 @@
 package java8.naveenautomationlabs.interviewquestions;
+<<<<<<< HEAD
+=======
 
 import java.util.HashMap;
-import java.util.HashSet;
+>>>>>>> 0b9bbfc7e7b0bd1d20d82ce56722ebc9b0275147
+
+import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
@@ -14,6 +18,10 @@ public class DuplicateStringElements {
 				"Ruby", "C" };
 
 //		M1: using Brute-force
+
+//		for (int i = 0; i < arr.length; i++) {
+//
+//			for (int j = i+1; j < arr.length; j++) {
 //		for (int i = 0; i < arr.length; i++) {
 //
 //			for (int j = i + 1; j < arr.length; j++) {
@@ -21,41 +29,46 @@ public class DuplicateStringElements {
 //				if (arr[i] == arr[j]) {
 //					System.out.println(arr[i]);
 //				}
-//				break; // using break will print the duplicate values only once, otherwise it will be
-//						// printed based on occurance
+
+//				break; // using break will print the duplicate values only once, otherwise it will be printed based on occurance
 //			}
 //		}
+
+//	Brute-force has	time complexity of O(n^2) 
 
 //		M2: using HashSet 
+
 //		Set<String> set = new HashSet<String>();
-//
-//		for (int i = 0; i < arr.length; i++) {
-//
-//			if (set.add(arr[i]) == false) {
-//				System.out.println(arr[i]);
+//		
+//		for(String str : arr) {
+//			
+//			if(set.add(str) == false){
+//				System.out.println(str);
 //			}
+//					
 //		}
 
-//		M2: using HashMap
+//		M3: Using HashMap
 		Map<String, Integer> map = new HashMap<String, Integer>();
 
-		for (String str : arr) {
-			Integer count = map.get(str);
+		for (String st : arr) {
+			Integer count = map.get(st);
+
 			if (count == null) {
-				map.put(str, 1);
+				map.put(st, 1);
 			} else {
-				map.put(str, ++count);
+				map.put(st, ++count);
 			}
 		}
 
-//		Now, Print all the duplicate elements
 		Set<Entry<String, Integer>> entrySet = map.entrySet();
 
-		for (Entry<String, Integer> entry : entrySet) {
-			if (entry.getValue() > 1) {
-				System.out.println(entry.getKey());
-//				System.out.println(entry.getKey() +" "+entry.getValue());
+		for (Entry<String, Integer> entr : entrySet) {
+			if (entr.getValue() > 1) {
+				System.out.println(entr.getKey());
+//				System.out.println(entr.getKey()+" "+entr.getValue());
 			}
+
 		}
 
 	}
