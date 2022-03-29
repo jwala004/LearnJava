@@ -1,9 +1,6 @@
 package java8.naveenautomationlabs.interviewquestions;
-<<<<<<< HEAD
-=======
 
 import java.util.HashMap;
->>>>>>> 0b9bbfc7e7b0bd1d20d82ce56722ebc9b0275147
 
 import java.util.HashMap;
 import java.util.Map;
