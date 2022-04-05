@@ -1,6 +1,5 @@
 package java8.naveenautomationlabs.listtt;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -19,7 +18,7 @@ public class MiddleElementOfList {
 			System.out.println("Middle Element of Integer List: " + arrList[arrList.length / 2]);
 		}
 
-//		Using String array
+//		Utilising just only list 
 		List<String> strLst = Arrays.asList(strArr);
 		
 		System.out.println("Middle Element of String array: " +strLst.get(strLst.size()/2));
