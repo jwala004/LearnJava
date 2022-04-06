@@ -1,16 +1,16 @@
-package java8.naveenautomationlabs.interviewquestions;
+package java8.naveenautomationlabs.strngg;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
-public class FrequencyOfEachCharacterInString {
+public class FirstRecurringCharacter {
 
 	/*
-	 * How to find Frequency Of Each Character In String
+	 * How to find First NonRecurring Character In String
 	 * 
-	 * Print first occuring character in String
+	 * Print first NonRecurring Character In String
 	 */
 
 	public static void main(String[] args) {
@@ -31,22 +31,6 @@ public class FrequencyOfEachCharacterInString {
 				map.put(c, 1);
 			}
 		}
-
-		Set<Entry<Character, Integer>> set = map.entrySet();
-
-//		Print Frequency Of Each Character In String
-
-//		for (Entry<Character, Integer> entry : set) {
-//			System.out.println(entry.getKey() + " = " + entry.getValue());
-//		}
-
-//		Print first occuring character in String
-//		for (Entry<Character, Integer> entry : set) {
-//			if (entry.getValue() > 1) {
-//				System.out.println("First occuring character: " + entry.getKey() + " = " + entry.getValue());
-//			}
-//			break;
-//		}
 
 		for (char c : ch) {
 			if (map.get(c) > 1) {
