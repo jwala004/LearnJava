@@ -8,13 +8,13 @@ import java.util.Set;
 public class FirstRecurringCharacter {
 
 	/*
-	 * How to find First NonRecurring Character In String
+	 * How to find First Recurring Character In String
 	 * 
-	 * Print first NonRecurring Character In String
+	 * Print first Recurring Character In String
 	 */
 
 	public static void main(String[] args) {
-		findFrequency("saweomj");
+		findFrequency("javasaweomj");
 	}
 
 	private static void findFrequency(String str) {
@@ -35,9 +35,6 @@ public class FirstRecurringCharacter {
 		for (char c : ch) {
 			if (map.get(c) > 1) {
 				System.out.println("First recurring character: " + c + " = " + map.get(c));
-				break;
-			} else {
-				System.out.println("First non-reccuring character:" + c + " = " + map.get(c));
 				break;
 			}
 		}
