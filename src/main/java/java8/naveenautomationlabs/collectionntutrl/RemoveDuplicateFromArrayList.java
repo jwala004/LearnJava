@@ -27,7 +27,6 @@ public class RemoveDuplicateFromArrayList {
 //		Using JDK 8 streams
 		int[] arry2 = { 1, 23, 1, 3, 3, 2, 3, 2, 12, 67, 23, 12, 34, 9 };
 
-//		Using LinkedHashSet
 		ArrayList<Integer> arrList = new ArrayList<Integer>(
 				Arrays.asList(1, 23, 1, 3, 3, 2, 3, 2, 12, 67, 23, 12, 34, 9));
 		List<Integer> uniqList = arrList.stream().distinct().collect(Collectors.toList());

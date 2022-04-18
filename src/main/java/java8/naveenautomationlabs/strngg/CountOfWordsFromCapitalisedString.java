@@ -1,4 +1,4 @@
-package java8.naveenautomationlabs.interviewquestions;
+package java8.naveenautomationlabs.strngg;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

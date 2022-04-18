@@ -1,4 +1,4 @@
-package java8.naveenautomationlabs.interviewquestions;
+package java8.naveenautomationlabs.nnumbrss;
 
 import java.util.HashMap;
 import java.util.Map;

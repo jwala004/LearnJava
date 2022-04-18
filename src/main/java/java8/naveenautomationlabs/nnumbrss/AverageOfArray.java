@@ -1,4 +1,4 @@
-package java8.naveenautomationlabs.interviewquestions;
+package java8.naveenautomationlabs.nnumbrss;
 
 import java.util.Arrays;
 import java.util.OptionalDouble;
