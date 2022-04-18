@@ -25,8 +25,7 @@ public class MostOccuringInteger {
 
 		}
 
-//		Now, we find the number with the maximum frequency and return it:
-
+//		Now, we will find the number with the maximum frequency and return it:
 		Integer popular = Collections.max(map.entrySet(), new Comparator<Map.Entry<Integer, Integer>>() {
 			@Override
 			public int compare(Entry<Integer, Integer> o1, Entry<Integer, Integer> o2) {
