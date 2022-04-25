@@ -1,7 +1,8 @@
+package java8.naveenautomationlabs.strngg;
 import java.util.HashSet;
 import java.util.Set;
 
-public class DuplicateElements {
+public class DuplicateElementsInString {
 
 	public static void main(String[] args) {
 

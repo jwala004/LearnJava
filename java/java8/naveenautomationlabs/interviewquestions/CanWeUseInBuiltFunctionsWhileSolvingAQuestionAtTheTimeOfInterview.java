@@ -1,4 +1,4 @@
-package java8.naveenautomationlabs;
+package java8.naveenautomationlabs.interviewquestions;
 
 public class CanWeUseInBuiltFunctionsWhileSolvingAQuestionAtTheTimeOfInterview {
 
