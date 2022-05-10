@@ -20,7 +20,7 @@ public class ShiftZerosToRight {
 		System.out.println(Arrays.toString(arr));
 
 		System.out.println("Sorted array");
-		
+
 		for (int i = arr.length - 1; i >= 0; i--) {
 			System.out.print(arr[i] + " ");
 		}
@@ -58,4 +58,10 @@ public class ShiftZerosToRight {
 
 	}
 
+	/*
+	 * Time Complexity: O(n) where n is number of elements in input array.
+	 * 
+	 * Auxiliary Space: O(1)
+	 * 
+	 */
 }
