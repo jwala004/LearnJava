@@ -6,8 +6,18 @@ public class StringReversal {
 
 		String str = "jwala";
 
-		System.out.print(StringReversal.rev(str));
+//		System.out.print(StringReversal.rev(str));
 
+		System.out.print(StringReversal.rev2(str));
+
+	}
+
+	private static String rev2(String str) {
+		String newStr = "";
+		for (int i = str.length() - 1; i >= 0; i--) {
+			newStr = newStr + str.charAt(i);
+		}
+		return newStr;
 	}
 
 	public static String rev(String str) {

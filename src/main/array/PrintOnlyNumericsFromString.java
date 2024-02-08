@@ -1,4 +1,4 @@
-package array.einfochips;
+package array;
 
 public class PrintOnlyNumericsFromString {
 
