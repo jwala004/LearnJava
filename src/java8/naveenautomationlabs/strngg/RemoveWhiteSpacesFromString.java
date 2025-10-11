@@ -1,6 +1,6 @@
-package java8.naveenautomationlabs.strngg;
+package src.java8.naveenautomationlabs.strngg;
 
-import groovyjarjarantlr.StringUtils;
+//import groovyjarjarantlr.StringUtils;
 
 public class RemoveWhiteSpacesFromString {
 

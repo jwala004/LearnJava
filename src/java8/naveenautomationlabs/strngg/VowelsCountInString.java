@@ -10,24 +10,24 @@ public class VowelsCountInString {
 
 		countVowels(str);
 
-		countVowelsUsingStreams(str);
+//		countVowelsUsingStreams(str);
 
 	}
 
 //	M1
 	private static void countVowels(String str) {
 
-//		int counter = 0;
-//		
-//		for (char c : str.toCharArray()) {
-//
-//			if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
-//				System.out.print(c);
-//				counter++;
-//			}
-//		}
-//		
-//		System.out.println("\n"+"Total number of vowels: "+counter);
+		int counter = 0;
+
+		for (char c : str.toCharArray()) {
+
+			if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
+				System.out.print(c);
+				counter++;
+			}
+		}
+
+		System.out.println("\n"+"Total number of vowels: "+counter);
 
 	}
 

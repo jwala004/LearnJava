@@ -13,9 +13,9 @@ public class RemoveValueFromArray {
 
 		List<Integer> list = new ArrayList(Arrays.asList(arry));
 
-		Iterator it = list.iterator();
-		
-	
+//		Iterator it = list.iterator();
+
+		System.out.println("KKKKKKKKKK");
 
 	}
 

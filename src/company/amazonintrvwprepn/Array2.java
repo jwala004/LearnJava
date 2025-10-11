@@ -11,7 +11,6 @@ public class Array2 {
 		int[] arr1 = { 1, 2, 3, 4, 5 };
 
 		Array2.substractOne(arr1);
-
 	}
 
 	private static void substractOne(int[] arr) {

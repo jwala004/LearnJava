@@ -11,7 +11,6 @@ public class Array1 {
 		int[] arr1 = { 1, 2, 3, 4, 5 };
 
 		Array1.substractNum(arr1);
-
 	}
 
 	private static void substractNum(int[] arr) {
