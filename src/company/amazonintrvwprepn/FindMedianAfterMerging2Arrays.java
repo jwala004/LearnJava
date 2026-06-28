@@ -26,13 +26,13 @@ public class FindMedianAfterMerging2Arrays {
 		// Creating a new array
 		int[] c = new int[c1];
 
-		// Loop to store the elements of first array into resultant array
+		// Loop to store the elements of first array into a resultant array
 		for (int i = 0; i < a1; i++) {
 			// Storing the elements in the resultant array
 			c[i] = a[i];
 		}
 
-		// Loop to concat the elements of second array into resultant array
+		// Loop to concat the elements of the second array into a resultant array
 		for (int i = 0; i < b1; i++) {
 			// Storing the elements in the resultant array
 			c[a1 + i] = b[i];

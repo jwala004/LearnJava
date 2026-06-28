@@ -3,8 +3,7 @@ package company.amazonintrvwprepn;
 public class Array2 {
 
 	/*
-	 * Given an array with numbers 1-5, how would you subtract one number from every
-	 * EVEN number in each index?
+	 * Given an array with numbers 1-5, how would you subtract one number from every EVEN number in each index?
 	 */
 	public static void main(String[] args) {
 
@@ -19,7 +18,7 @@ public class Array2 {
 			if (arr[i] % 2 == 0) {
 				System.out.print(arr[i] - 1 + " ");
 			}else {
-				System.out.print(arr[i] + " ");
+//				System.out.print(arr[i] + " ");
 			}
 		}
 

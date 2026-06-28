@@ -9,9 +9,7 @@ public class VowelsCountInString {
 		String str = "javaisawesome";
 
 		countVowels(str);
-
 //		countVowelsUsingStreams(str);
-
 	}
 
 //	M1
@@ -26,9 +24,7 @@ public class VowelsCountInString {
 				counter++;
 			}
 		}
-
 		System.out.println("\n"+"Total number of vowels: "+counter);
-
 	}
 
 //	M2 : Using Java 8 Streams

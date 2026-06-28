@@ -6,7 +6,7 @@ public class CapitalizeFirstCharacter {
 
 	public static void main(String[] args) {
 
-		System.out.println(capitailzeFirstCharacterOfString("Jwala"));
+		System.out.println(capitailzeFirstCharacterOfString("jwala"));
 	}
 
 	private static String capitailzeFirstCharacterOfString(String strToCapitalize) {

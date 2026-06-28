@@ -23,8 +23,9 @@ public class FrequencyOfCharsWithPreserverdOrder {
 
 	private static void freqcyOfStrng(String inputStrng) {
 
-		Map<Character, Integer> map = new HashMap<Character, Integer>();
-//			new LinkedHashMap<Character, Integer>();
+		Map<Character, Integer> map =
+//				new HashMap<Character, Integer>();
+			new LinkedHashMap<Character, Integer>();
 
 		for (char c : inputStrng.toCharArray()) {
 

@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class MostOccuringInteger {
 
-//    Methodd 1:
+//    Method 1:
 //    public static void main(String[] args) {
 //        int[] arr = new int[]{1, 2, 3, 4, 4, 5, 3, 2, 1, 6, 7, 1, 2, 2, 3};
 //
@@ -26,15 +26,14 @@ public class MostOccuringInteger {
 //        for(Map.Entry<Integer, Integer> mapItrKey: entrySet){
 //            if(mapItrKey.getValue() > maxCount){
 //                maxCount = mapItrKey.getValue();
-//                // jiski number ki value or occurance sabse jayda rahegi, that number is going to be most repeating character.
+//                // jiski number ki value or occurrence sabse jayda rahegi, that number is going to be most repeating character.
 //                mostOccuringInteger = mapItrKey.getKey();
 //            }
 //        }
-//        System.out.println("MostOccuringInteger: " + mostOccuringInteger + " " +"Occurance: " + maxCount);
+//        System.out.println("MostOccuringInteger: " + mostOccuringInteger + " " +"Occurrence: " + maxCount);
 //    }
 
-//    Methodd 2:
-
+//    Method 2:
         public static void main(String[] args) {
             int[] arr = {1, 2, 3, 4, 4, 5, 3, 2, 1, 6, 7, 1, 2, 2, 3};
 

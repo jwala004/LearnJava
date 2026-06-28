@@ -40,7 +40,8 @@ public class DuplicateCharacters {
 		Set<Map.Entry<Character, Integer>> entrySet = charMap.entrySet();
 		for (Map.Entry<Character, Integer> entry : entrySet) {
 			if (entry.getValue() >= 1) {
-				System.out.print(entry.getKey() + "" + entry.getValue());
+				System.out.print(entry.getKey() + "" + entry.getValue() + "\n");
+//				System.out.println();
 			}
 //			if (charMap.containsKey('l'))  {
 //				System.out.println(entry.getKey() + "" + entry.getValue());
