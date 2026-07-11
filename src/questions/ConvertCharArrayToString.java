@@ -1,9 +1,9 @@
-package com.intrvw.questions;
+package questions;
 
 public class ConvertCharArrayToString {
 
-	public static void main(String[] args) {
-		char[] ch = {'a', 'e', 'i', 'o', 'u'};
+    public static void main(String[] args) {
+        char[] ch = {'a', 'e', 'i', 'o', 'u'};
 
 //		M-1
         String st = String.valueOf(ch);
@@ -12,6 +12,6 @@ public class ConvertCharArrayToString {
 
         System.out.println(st);
         System.out.println(st2);
-	}
+    }
 
 }

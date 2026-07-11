@@ -1,4 +1,4 @@
-package src.intrvw;
+package questions;
 
 public class PrintOnlyNumericsFromString {
 
@@ -7,11 +7,11 @@ public class PrintOnlyNumericsFromString {
 
         String str = "a1b2c3d5e7r7t6r9";
 
-        for(int i = 0; i < str.length(); i++) {
+        for (int i = 0; i < str.length(); i++) {
 
-            if(str.charAt(i) >= 'a' || str.charAt(i) <= 'z' ) {
+            if (str.charAt(i) >= 'a' || str.charAt(i) <= 'z') {
 
-            }else {
+            } else {
                 System.out.print(str.charAt(i));
             }
         }

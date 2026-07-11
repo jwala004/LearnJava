@@ -1,4 +1,4 @@
-package derek.banas;
+package questions;
 
 // getValueAtIndex
 // doesArrayContainThisValue
@@ -13,6 +13,30 @@ public class ArrayStructures {
     private int arraySize = 10; // Elements in theArray
 
     // Fills the Array with random values
+
+    public static void main(String[] args) {
+
+        ArrayStructures newArray = new ArrayStructures();
+
+        newArray.generateRandomArray();
+
+        newArray.printArray();
+
+        System.out.println(newArray.getValueAtIndex(3));
+
+        System.out.println(newArray.doesArrayContainThisValue(18));
+
+        newArray.deleteIndex(4);
+
+        newArray.printArray();
+
+        newArray.insertValue(55);
+
+        newArray.printArray();
+
+        newArray.linearSearchForValue(17);
+
+    }
 
     public void generateRandomArray() {
 
@@ -32,13 +56,15 @@ public class ArrayStructures {
 
     }
 
+    // Prints the Array on the screen in a grid
+
     public int getArraySize() {
 
         return arraySize;
 
     }
 
-    // Prints the Array on the screen in a grid
+    // Gets value at provided index
 
     public void printArray() {
 
@@ -56,7 +82,7 @@ public class ArrayStructures {
 
     }
 
-    // Gets value at provided index
+    // Returns true or false if a value is in the Array
 
     public int getValueAtIndex(int index) {
 
@@ -67,7 +93,7 @@ public class ArrayStructures {
 
     }
 
-    // Returns true or false if a value is in the Array
+    // Delete Array row for the index and move elements up
 
     public boolean doesArrayContainThisValue(int searchValue) {
 
@@ -86,8 +112,6 @@ public class ArrayStructures {
         return valueInArray;
 
     }
-
-    // Delete Array row for the index and move elements up
 
     public void deleteIndex(int index) {
 
@@ -111,6 +135,8 @@ public class ArrayStructures {
 
     }
 
+    // Linear Search : Every index must be looked at
+
     public void insertValue(int value) {
 
         if (arraySize < 50) {
@@ -123,7 +149,9 @@ public class ArrayStructures {
 
     }
 
-    // Linear Search : Every index must be looked at
+    // This bubble sort will sort everything from
+
+    // smallest to largest
 
     public String linearSearchForValue(int value) {
 
@@ -160,10 +188,6 @@ public class ArrayStructures {
         return indexsWithValue;
 
     }
-
-    // This bubble sort will sort everything from
-
-    // smallest to largest
 
     public void bubbleSort() {
 
@@ -204,30 +228,6 @@ public class ArrayStructures {
         theArray[indexOne] = theArray[indexTwo];
 
         theArray[indexTwo] = temp;
-
-    }
-
-    public static void main(String[] args) {
-
-        ArrayStructures newArray = new ArrayStructures();
-
-        newArray.generateRandomArray();
-
-        newArray.printArray();
-
-        System.out.println(newArray.getValueAtIndex(3));
-
-        System.out.println(newArray.doesArrayContainThisValue(18));
-
-        newArray.deleteIndex(4);
-
-        newArray.printArray();
-
-        newArray.insertValue(55);
-
-        newArray.printArray();
-
-        newArray.linearSearchForValue(17);
 
     }
 

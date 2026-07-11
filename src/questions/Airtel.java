@@ -1,4 +1,4 @@
-package derek.banas;
+package questions;
 
 //coding is good for kids - Kids For Good Is Coding
 
@@ -35,7 +35,7 @@ public class Airtel {
         String[] words = str.split(" ");
         String output = "";
 
-        for (int i = words.length - 1;  i >= 0;  i--) {
+        for (int i = words.length - 1; i >= 0; i--) {
             String word = words[i];
 
             // Capitalize first character and keep remaining characters unchanged

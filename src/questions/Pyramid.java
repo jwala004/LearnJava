@@ -1,4 +1,4 @@
-package src.intrvw;
+package questions;
 
 
 public class Pyramid {

@@ -1,9 +1,7 @@
-package src.array;
+package array;
 
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Set;
 
 public class MostOccuringInteger {
 
@@ -33,32 +31,32 @@ public class MostOccuringInteger {
 //        System.out.println("MostOccuringInteger: " + mostOccuringInteger + " " +"Occurrence: " + maxCount);
 //    }
 
-//    Method 2:
-        public static void main(String[] args) {
-            int[] arr = {1, 2, 3, 4, 4, 5, 3, 2, 1, 6, 7, 1, 2, 2, 3};
+    //    Method 2:
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3, 4, 4, 5, 3, 2, 1, 6, 7, 1, 2, 2, 3};
 
-            // Create a HashMap to store frequency of each element
-            HashMap<Integer, Integer> map = new HashMap<>();
+        // Create a HashMap to store frequency of each element
+        HashMap<Integer, Integer> map = new HashMap<>();
 
-            for(int arrNum = 0; arrNum < arr.length; ++arrNum) {
-                map.put(arr[arrNum], map.getOrDefault(arr[arrNum], 0) + 1);
-            }
+        for (int arrNum = 0; arrNum < arr.length; ++arrNum) {
+            map.put(arr[arrNum], map.getOrDefault(arr[arrNum], 0) + 1);
+        }
 //          for (int num : arr) {
 //              map.put(num, map.getOrDefault(num, 0) + 1);
 //          }
 
-            int mostOccurring = arr[0];
-            int maxCount = 0;
+        int mostOccurring = arr[0];
+        int maxCount = 0;
 
-            // Find the element with the highest frequency
-            for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
-                if (entry.getValue() > maxCount) {
-                    maxCount = entry.getValue();
-                    mostOccurring = entry.getKey();
-                }
+        // Find the element with the highest frequency
+        for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
+            if (entry.getValue() > maxCount) {
+                maxCount = entry.getValue();
+                mostOccurring = entry.getKey();
             }
-            System.out.println("Most occurring integer: " + mostOccurring);
-            System.out.println("Occurrences: " + maxCount);
         }
+        System.out.println("Most occurring integer: " + mostOccurring);
+        System.out.println("Occurrences: " + maxCount);
+    }
 
 }

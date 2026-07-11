@@ -1,4 +1,4 @@
-package company;
+package company.airtel;
 
 public class AirtelIntervw {
 

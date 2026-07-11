@@ -1,4 +1,4 @@
-package intrvw;
+package questions;
 
 import java.util.List;
 
@@ -6,15 +6,13 @@ public class RaviSir_1_Pyramid {
 
     private int ab;
     private String str;
+    private List<String> job;
 
     public RaviSir_1_Pyramid(int ab, String str, List<String> job) {
         this.ab = ab;
         this.str = str;
         this.job = job;
     }
-
-    private List<String> job;
-
 
     public int getAb() {
         return ab;
@@ -79,12 +77,6 @@ public class RaviSir_1_Pyramid {
 //            this.job = job;
 //        }
 //    }
-
-
-
-
-
-
 
 
 }

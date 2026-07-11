@@ -1,10 +1,10 @@
 package questions;
 
-public class SwapNumber1 {
+public class SwapNumbers {
 
     public static void main(String[] args) {
-        SwapNumber1.swapNumberUsing3rdVariable();
-//        SwapNumber1.swapNumberWithoutUsing3rdVariable();
+        SwapNumbers.swapNumberUsing3rdVariable();
+//        SwapNumbers.swapNumberWithoutUsing3rdVariable();
     }
 
     private static void swapNumberUsing3rdVariable() {
