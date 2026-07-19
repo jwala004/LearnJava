@@ -9,6 +9,9 @@ public class ReverseString {
 
 //		System.out.println("Reversed String M1: "+reverseString(originalString));
         System.out.println("Reversed String M2: " + reverseStringM2(originalString));
+        if (originalString.equalsIgnoreCase(reversedString)) {
+            System.out.println("String is palindrome");
+        }
     }
 
     private static String reverseString(String originalString) {

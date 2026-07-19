@@ -10,17 +10,15 @@ public class PalindromeStringCheck {
     }
 
     private static boolean checkPalindromeString(String actualString) {
-
         for (int i = actualString.length() - 1; i >= 0; i--) {
             reversedString = reversedString + actualString.charAt(i);
-
         }
 
         if (actualString.equalsIgnoreCase(reversedString)) {
-            System.out.println(reversedString + " is a Palindrome String.");
+            System.out.println(reversedString + " : is a Palindrome String.");
             return true;
         } else {
-            System.out.println(reversedString + " is not a Palindrome String.");
+            System.out.println(reversedString + " : is not a Palindrome String.");
             return false;
         }
 

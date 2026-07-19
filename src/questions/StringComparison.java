@@ -8,15 +8,17 @@ public class StringComparison {
 
     public static void main(String[] args) {
 
-        System.out.println("Using equals method for comparison: " + str1.equals(str2) + " " + str1 + " " + str2);
+        System.out.println("Using equals method for comparison: " + str1.equals(str2) + " " + str1 + " " + str2); // false
 
         System.out.println("Using equalsIgnoreCase method for comparison: " + str1.equalsIgnoreCase(str2) + " " + str1
-                + " " + str2);
+                + " " + str2); //true
 
-        System.out.println("Using compareTo method for comparison: " + str1.compareTo(str2) + " " + str1 + " " + str2);
+        System.out.println("Using compareTo method for comparison: " + str1.compareTo(str2) + " " + str1 + " " + str2); //
 
         System.out.println("Using compareToIgnoreCase method for comparison: " + str1.compareToIgnoreCase(str2) + " "
                 + str1 + " " + str2);
+
+        System.out.println("Using double equal operator:  " + (str1 == str2)); // false
 
     }
 
